@@ -188,7 +188,7 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form onsubmit="sendEmail(); reset(); return false;" action="" class="contact__form">
+                    <form onsubmit="sendemail(); reset(); return false;" action="" class="contact__form">
                         <input type="text" id="name" placeholder="Name" class="contact__input">
                         <input type="mail" id="email" placeholder="Email" class="contact__input">
                         <textarea name="Massage" id="text" placeholder="Enter your Massage" cols="0" rows="10" class="contact__input"></textarea>
@@ -213,7 +213,7 @@
         <!--===== SEND MASSAGE =====-->
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
-        function sendEmail(){
+        function sendemail(){
             Email.send({
                 Host : "smtp.elasticemail.com",
                 Username : "appfun999@gmail.com",
