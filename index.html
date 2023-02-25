@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f40390cf45.css" crossorigin="anonymous">
     <link href="https://avatars.githubusercontent.com/u/85132107?s=400&u=62a6442ef080e60c69eabdf31117596cd52bf181&v=4" rel="icon" type="image/x-icon">
 
 
@@ -13,7 +14,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             emailjs.init("l_0uEzykbeTftWgbb");
         })();
     </script>
@@ -39,7 +40,7 @@
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-<!--                      <li class="nav__item"><a href="link/index.html" class="nav__link">Links</a></li> -->
+                    <!--                      <li class="nav__item"><a href="link/index.html" class="nav__link">Links</a></li> -->
                 </ul>
             </div>
 
@@ -62,15 +63,14 @@
             <div class="home__social">
                 <a href="https://www.facebook.com/harjyotisaloi/" class="home__social-icon"><i
                         class='bx bxl-facebook'></i></a>
-            <a href="https://youtube.openinapp.co/harajyoti_saloi" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+                <a href="https://youtube.openinapp.co/harajyoti_saloi" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
                 <a href="https://www.instagram.com/harajyoti_official/" class="home__social-icon"><i
                         class='bx bxl-instagram'></i></a>
                 <a href="https://github.com/harajyotisaloi" class="home__social-icon"><i class='bx bxl-github'></i></a>
             </div>
 
             <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">
                         <path
                             d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
@@ -95,10 +95,8 @@
 
                 <div>
                     <h2 class="about__subtitle">I'am Harajyoti</h2>
-                    <p class="about__text">Hello! I'm a new web developer and I'm excited to start working on new
-                        projects. I have a strong background in HTML, CSS, and JavaScript, and I'm always looking to
-                        learn new technologies. I'm passionate about creating beautiful and user-friendly websites, and
-                        I'm excited to work on your next project.</p>
+                    <p class="about__text">Hello! I'm a new web developer and I'm excited to start working on new projects. I have a strong background in HTML, CSS, and JavaScript, and I'm always looking to learn new technologies. I'm passionate about creating beautiful and
+                        user-friendly websites, and I'm excited to work on your next project.</p>
                 </div>
             </div>
         </section>
@@ -114,8 +112,8 @@
 
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxl-c-plus-plus skills__icon'></i>
-                            <span class="skills__name">C</span>
+                            <i class="fa-brands fa-wordpress"></i>
+                            <span class="skills__name">WordPress</span>
                         </div>
                         <div class="skills__bar skills__C">
 
@@ -187,13 +185,13 @@
 
             <div class="work__container bd-grid">
                 <a href="" class="work__img">
-                    <img src="assets/img/work1.jpg" alt="">
+                    <img src="assets/img/work1.webp" alt="">
                 </a>
                 <a href="" class="work__img">
-                    <img src="assets/img/work2.jpg" alt="">
+                    <img src="assets/img/work2.webp" alt="">
                 </a>
                 <a href="" class="work__img">
-                    <img src="assets/img/work3.jpg" alt="">
+                    <img src="assets/img/work3.webp" alt="">
                 </a>
                 <a href="" class="work__img">
                     <img src="assets/img/work4.jpg" alt="">
@@ -215,8 +213,7 @@
                 <form onsubmit="sendemail(); reset(); return false;" action="" class="contact__form">
                     <input type="text" id="name" placeholder="Name" class="contact__input">
                     <input type="mail" id="email" placeholder="Email" class="contact__input">
-                    <textarea name="Massage" id="text" placeholder="Enter your Message" cols="0" rows="10"
-                        class="contact__input"></textarea>
+                    <textarea name="Massage" id="text" placeholder="Enter your Message" cols="0" rows="10" class="contact__input"></textarea>
                     <!-- <input type="button" value="Enviar" class="contact__button button"> -->
                     <button type="submit" class="contact__button button" onclick="sendMail()">Send</button>
                 </form>
